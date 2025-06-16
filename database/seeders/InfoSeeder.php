@@ -14,13 +14,13 @@ class InfoSeeder extends Seeder
     public function run(): void
     {
         DB::table('infos')->insert([
-            'company_name' => 'ITE',
+            'company_name' => 'DGK',
             'logo' => 'logo.png',
-            'slogan' => 'Facilitamos tu educación',
-            'description' => 'ITE es el lugar donde tu aprendizaje cobra vida. Ofrecemos cursos innovadores en programación, matemáticas y más, con docentes expertos para impulsar tu éxito. ¡Descubre todo lo que podemos hacer por ti! ',
-            'address' => 'Villa 1 de mayo calle 16 oeste #9',
+            'slogan' => 'Slogan de dgk',
+            'description' => 'Descripcion dgk',
+            'address' => 'Santa Cruz Plan 3000 av Che Guevara',
             'code' => '591',
-            'phone' => '71039910',
+            'phone' => '65007894',
         ]);
     }
 }
